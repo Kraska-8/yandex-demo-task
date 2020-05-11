@@ -1,0 +1,25 @@
+.place__body_paragraph {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 169.43%;
+}
+
+.place__body_paragraph:first-of-type {
+    margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+    .place__body_paragraph {
+        font-size: 16px;
+        line-height: 27px;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__body_paragraph {
+        font-size: 18px;
+        line-height: 30px;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}

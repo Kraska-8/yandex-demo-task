@@ -1,0 +1,21 @@
+.videos__view {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+
+@media (min-width: 768px) {
+    .videos__view {
+        flex-direction: row;
+        justify-content: center;
+        margin: 56px -9px 0 -9px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .videos__view {
+        margin-top: 72px;
+    }
+}

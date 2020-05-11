@@ -1,0 +1,5 @@
+@media (min-width: 1280px) {
+    .photo-grid__wrapper {
+        padding: 0 100px;
+    }
+}

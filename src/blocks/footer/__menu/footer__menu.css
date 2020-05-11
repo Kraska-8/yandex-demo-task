@@ -1,0 +1,23 @@
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}
+
+.footer__menu li {
+    list-style: none;
+}
+
+@media (min-width: 768px) {
+    .footer__menu {
+        align-items: center;
+        margin-top: 102px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__menu {
+        align-items: center;
+        margin-top: 160px;
+    }
+}

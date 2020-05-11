@@ -1,0 +1,10 @@
+@import url(__language/navigation__languages.css);
+@import url(__language/navigation__language.css);
+@import url(__logo/navigation__logo.css);
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

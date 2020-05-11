@@ -1,0 +1,23 @@
+@import url(__item/footer__item.css);
+@import url(__menu/footer__menu.css);
+@import url(__image/footer__image-container.css);
+@import url(__copyright/footer__copyright.css);
+
+
+.footer {
+    color: white;
+    margin-top: 64px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 375px) {
+    .footer {
+        margin-top: 48px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        margin-top: 102px;
+    }
+}

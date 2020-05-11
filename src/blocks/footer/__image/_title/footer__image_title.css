@@ -1,0 +1,37 @@
+.footer__image_title {
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 64px 16px 0;
+}
+
+@media (min-width: 375px) {
+    .footer__image_title {
+        padding-top: 105px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer__image_title {
+        font-size: 72px;
+        line-height: 78px;
+        padding: 165px 48px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__image_title {
+        padding: 211px 200px 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer__image_title {
+        padding: 274px 0 0;
+    }
+}
