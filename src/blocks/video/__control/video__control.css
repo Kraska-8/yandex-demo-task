@@ -1,7 +1,0 @@
-.video__control {
-    height: 41px;
-    width: 41px;
-    background-image: url("/src/images/videos/__icon_control.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}

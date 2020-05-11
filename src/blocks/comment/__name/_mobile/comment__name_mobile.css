@@ -1,9 +1,0 @@
-.comment__name_mobile {
-    display: block;
-}
-
-@media(min-width: 1024px) {
-    .comment__name_mobile {
-        display: none;
-    }
-}
