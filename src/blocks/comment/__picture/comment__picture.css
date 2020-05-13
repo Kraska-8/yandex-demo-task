@@ -1,0 +1,37 @@
+
+/* Может быть лучше: в макете картинки изначально квадратные, сделать их круглыми можно с помощью свойств
+border-radius */
+.comment__picture {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
+}
+
+/* Надо исправить:  В файле блока/элемента/модификатора должны быть описаны стили только этих сущностей */
+/* Надо исправить: фоновые картинки на странице не отображаются, это связано с неточностью в указании пути
+Прочитать про некоторые тонкости в написании путей на ресурсах:
+https://schoolsw3.com/html/html_filepaths.php
+https://css-tricks.com/quick-reminder-about-file-paths/
+ */
+.comment__picture_1 {
+    background-image: url("/src/img/comments/__photogrpher1.png");
+}
+/* Надо исправить:  В файле блока/элемента/модификатора должны быть описаны стили только этих сущностей */
+/* Надо исправить: фоновые картинки на странице не отображаются, это связано с неточностью в указании пути */
+.comment__picture_2 {
+    background-image: url("/src/img/comments/__photogrpher2.png");
+}
+/* Надо исправить:  В файле блока/элемента/модификатора должны быть описаны стили только этих сущностей */
+/* Надо исправить: фоновые картинки на странице не отображаются, это связано с неточностью в указании пути */
+.comment__picture_3 {
+    background-image: url("/src/img/comments/__photogrpher3.png");
+}
+
+@media (min-width: 1024px) {
+    .comment__picture {
+        margin: 0;
+    }
+}

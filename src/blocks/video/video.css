@@ -1,0 +1,49 @@
+@import url(__info/video__info.css);
+@import url(_wrapper/video_wrapper.css);
+@import url(__time/video__time.css);
+@import url(__author/video__author.css);
+@import url(__control/video__control.css);
+@import url(__name/video__name.css);
+
+/* Отлично: использование внутренних отступов и flex layout в данном случае выйгрышный вариант*/
+.video {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+}
+/* Может быть лучше: в данном случае выбор псевдокласса в качестве
+ селекторов опасен, а если в верстке нужно будет поменять их местами или добавить еще пару блоков с видео?
+ Предпочтительней использовать
+ */
+
+.video_wrapper:first-child .video {
+    background-image: url("/src/img/videos/_video1.png");
+}
+
+/* Надо исправить: фоновые картинки на странице не отображаются, это связано с неточностью в указании пути
+Прочитать про некоторые тонкости в написании путей на ресурсах:
+https://schoolsw3.com/html/html_filepaths.php
+https://css-tricks.com/quick-reminder-about-file-paths/
+ */
+.video_wrapper:last-child .video {
+    background-image: url("/src/img/videos/_video2.png");
+}
+
+@media (min-width: 375px) {
+    .video {
+        padding: 25px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .video {
+        padding: 30px;
+    }
+}

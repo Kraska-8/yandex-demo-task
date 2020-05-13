@@ -1,0 +1,19 @@
+/* Надо исправить: фоновые картинки на странице не отображаются, это связано с неточностью в указании пути
+Прочитать про некоторые тонкости в написании путей на ресурсах:
+https://schoolsw3.com/html/html_filepaths.php
+https://css-tricks.com/quick-reminder-about-file-paths/
+ */
+.navigation__logo {
+    background-image: url("/src/img/nav/__logo.svg");
+    width: 142px;
+    height: 42px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .navigation__logo {
+        height: 52px;
+        width: 176px;
+    }
+}

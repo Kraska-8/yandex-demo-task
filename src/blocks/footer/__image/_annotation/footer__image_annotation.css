@@ -1,0 +1,30 @@
+/* Можно лучше: ширина текстового блока на всех разрешениях не соответствует макету, 
+можно зафиксировать ширину.
+Когда в заголовке нужно сделать перенос строки - ширина элементов фиксируется. */
+.footer__image_annotation {
+    font-style: normal;
+    font-weight: normal;
+    padding: 0 16px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .footer__image_annotation {
+        font-size: 18px;
+        padding: 0 48px;
+        margin-top: 45px;
+        line-height: 26px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__image_annotation {
+        margin-top: 60px;
+        padding: 0 200px;
+    }
+}

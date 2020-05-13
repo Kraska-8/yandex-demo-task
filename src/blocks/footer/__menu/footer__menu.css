@@ -1,0 +1,28 @@
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}
+
+/* Надо исправить: селекторы тэгов не используются, данное свойство можно применить
+ к селектору данного элемента*/
+.footer__menu li {
+    list-style: none;
+}
+
+@media (min-width: 768px) {
+    .footer__menu {
+        align-items: center;
+        margin-top: 102px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__menu {
+        align-items: center;
+        margin-top: 160px;
+    }
+}
+
+
+/* Нужно исправить: от 767px до 805px верстка данного элемента ломается */

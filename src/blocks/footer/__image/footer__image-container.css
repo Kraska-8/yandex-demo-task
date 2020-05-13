@@ -1,0 +1,47 @@
+@import url(_annotation/footer__image_annotation.css);
+@import url(_title/footer__image_title.css);
+@import url(_wrapper/footer__image_wrapper.css);
+
+/* Надо исправить: фоновые картинки на странице не отображаются, это связано с неточностью в указании пути
+Прочитать про некоторые тонкости в написании путей на ресурсах:
+https://schoolsw3.com/html/html_filepaths.php
+https://css-tricks.com/quick-reminder-about-file-paths/
+ */
+
+ /* Можно лучше: если хочется добиться совпадения по ПП, можно кадрировать изображения при
+  помощи свойств height + object-fit, отрицательные margin недопустимы */
+.footer__image-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/src/img/footer/__footer1.png");
+    background-size: cover;
+    height: 215px;
+    margin: 0 -15px;
+    position: relative;
+}
+
+@media (min-width: 375px) {
+    .footer__image-container {
+        height: 272px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer__image-container {
+        height: 500px;
+        margin: 0 -24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__image-container {
+        height: 562px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer__image {
+        height: 594px;
+    }
+}

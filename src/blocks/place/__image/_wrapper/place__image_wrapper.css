@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+    .place__image_wrapper {
+        width: 50%;
+    }
+}

@@ -1,0 +1,24 @@
+@import url(__info/place__info.css);
+@import url(__body/place__body.css);
+@import url(__image/place__image.css);
+@import url(__link/place__link.css);
+@import url(__title/place__title.css);
+@import url(__url/place__url.css);
+@import url(__url-box/place__url-box.css);
+/* Можно лучше: использовать Grid-layout для реализации блока place */
+.place {
+    margin-top: 48px;
+}
+
+.place:first-of-type {
+    margin-top: 0;
+}
+
+@media (min-width: 768px) {
+    .place {
+        margin-top: 81px;
+    }
+    .place:first-of-type {
+        margin-top: 0;
+    }
+}

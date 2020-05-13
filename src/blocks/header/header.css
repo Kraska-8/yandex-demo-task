@@ -1,0 +1,18 @@
+@import url(__image/header__image.css);
+@import url(__main-text/header__main-text.css);
+@import url(__title/header__title.css);
+@import url(__annotation/header__annotation.css);
+
+
+
+.header {
+    margin-top: 48px;
+    text-align: center;
+}
+/* Можно лучше: для установки переносов текста лучше использовать фиксированую ширину заголовков, 
+чем устанавливать ее padding-ами */
+@media (min-width: 1280px) {
+    .header {
+         padding: 0 100px;
+    }
+}

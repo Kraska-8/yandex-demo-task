@@ -1,0 +1,28 @@
+.videos__annotation {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .videos__annotation {
+        font-size: 24px;
+        line-height: 35px;
+        margin-top: 24px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .videos__annotation {
+        margin-top: 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .videos__annotation {
+        width: 700px;
+        margin: 48px auto 0 auto;
+    }
+}

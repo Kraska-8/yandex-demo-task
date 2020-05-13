@@ -1,0 +1,18 @@
+/* Можно лучше: ширина текстового блока на всех разрешениях не соответствует макету, 
+можно зафиксировать ширину.
+Когда в заголовке нужно сделать перенос строки - ширина элементов фиксируется. */
+.header__title {
+    font-size: 40px;
+    line-height: 44px;
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .header__title{
+        line-height: 93px;
+        font-size: 96px;
+    }
+}

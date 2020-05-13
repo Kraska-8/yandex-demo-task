@@ -1,0 +1,36 @@
+.navigation__language {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    font-style: normal;
+    background-color: transparent;
+    text-align: right;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: none;
+}
+/* Можно лучше: Использовать transition на интерактивных элементах */
+.navigation__language:hover {
+    opacity: 0.6;
+}
+
+.navigation__language:active {
+    opacity: 0.2;
+}
+/* Нужно исправить: в файле блока/элемента/модификатора должны быть описаны стили только этих сущностей */
+.navigation__language__active {
+    text-decoration: underline;
+
+}
+
+.navigation__language:first-child {
+    margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+    .navigation__language {
+        line-height: 23px;
+        font-size: 24px;
+    }
+}

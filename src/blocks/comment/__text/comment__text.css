@@ -1,0 +1,17 @@
+.comment__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 23px;
+    text-align: left;
+}
+
+@media (min-width: 1024px) {
+    .comment_text {
+        margin-top: 40px;
+    }
+}
+/* Может быть лучше: размер шрифта и line-height при (min-width: 1024px) не соответствует макету */
+
+/* Нужно исправить: на мобильных разрешениях текст центрируется */
