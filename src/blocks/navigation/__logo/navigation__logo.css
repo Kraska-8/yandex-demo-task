@@ -1,7 +1,5 @@
 /* Надо исправить: фоновые картинки на странице не отображаются, это связано с неточностью в указании пути
-Прочитать про некоторые тонкости в написании путей на ресурсах:
-https://schoolsw3.com/html/html_filepaths.php
-https://css-tricks.com/quick-reminder-about-file-paths/
+*пути к картинкам правлены в ветке gh-pages
  */
 .navigation__logo {
     background-image: url("/src/img/nav/__logo.svg");
